@@ -1,6 +1,6 @@
 # Pabulum SDK Instructions - Android
 
-[![](https://jitpack.io/v/inet2018/PabulumSDKRepositoryAndroid.svg)](https://jitpack.io/#inet2018/BodyFatScaleRepositoryAndroid)
+[![](https://jitpack.io/v/inet2018/PabulumSDKRepositoryAndroid.svg)](https://jitpack.io/#inet2018/PabulumSDKRepositoryAndroid)
 
 [aar package download link](https://github.com/inet2018/PabulumSDKRepositoryAndroid/releases)
 
@@ -78,7 +78,7 @@ You can also use the aar package dependency, please download it yourself and put
 ```
 
 
-> Initialization, [key registration] (http://sdk.aicare.net.cn/register)
+> Initialization, [key registration](http://sdk.aicare.net.cn/register)
 ```
 // It is recommended to initialize in Application
 PabulumSDK.getInstance (). Init (this, "key", "secret");

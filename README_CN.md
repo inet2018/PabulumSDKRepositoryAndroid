@@ -1,7 +1,7 @@
 
 # 好营养SDK使用说明 - Android
 
-[![](https://jitpack.io/v/inet2018/PabulumSDKRepositoryAndroid.svg)](https://jitpack.io/#inet2018/BodyFatScaleRepositoryAndroid)
+[![](https://jitpack.io/v/inet2018/PabulumSDKRepositoryAndroid.svg)](https://jitpack.io/#inet2018/PabulumSDKRepositoryAndroid)
 
 [aar包下载地址](https://github.com/inet2018/PabulumSDKRepositoryAndroid/releases)
 
