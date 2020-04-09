@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/system_theme"
+    android:clipToPadding="true"
+    android:divider="@drawable/main_divider"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <include layout="@layout/activity_title" />
+
+    <TextView
+        android:id="@+id/tv_show_state"
+        style="@style/Base_Text_View" />
+
+    <TextView
+        android:id="@+id/tv_show_rssi"
+        style="@style/Base_Text_View" />
+
+    <TextView
+        android:id="@+id/tv_show_version"
+        style="@style/Base_Text_View" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rg_unit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_g"
+                style="@style/Base_Radio_Button"
+                android:text="g" />
+
+            <RadioButton
+                android:id="@+id/rb_ml"
+                style="@style/Base_Radio_Button"
+                android:text="ml" />
+
+            <RadioButton
+                android:id="@+id/rb_lb"
+                style="@style/Base_Radio_Button"
+                android:text="lb" />
+
+            <RadioButton
+                android:id="@+id/rb_oz"
+                style="@style/Base_Radio_Button"
+                android:text="oz" />
+
+            <RadioButton
+                android:id="@+id/rb_kg"
+                style="@style/Base_Radio_Button"
+                android:text="kg" />
+
+            <RadioButton
+                android:id="@+id/rb_fg"
+                style="@style/Base_Radio_Button"
+                android:text="斤" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_set_weight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/pls_input_weight"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_set_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_weight" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:text="卡路里" />
+
+        <Button
+            android:id="@+id/btn_all_cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总卡路里" />
+
+        <Button
+            android:id="@+id/btn_sug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="糖" />
+
+        <Button
+            android:id="@+id/btn_all_sug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总糖" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+
+        <Button
+            android:id="@+id/btn_fat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:text="脂肪" />
+
+        <Button
+            android:id="@+id/btn_all_fat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总脂肪" />
+
+        <Button
+            android:id="@+id/btn_pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="蛋白质" />
+
+        <Button
+            android:id="@+id/btn_all_pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总蛋白质" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:text="碳水" />
+
+        <Button
+            android:id="@+id/btn_all_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总碳水" />
+
+        <Button
+            android:id="@+id/btn_fib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="纤维" />
+
+        <Button
+            android:id="@+id/btn_all_fib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总纤维" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_cho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:text="胆固醇" />
+
+        <Button
+            android:id="@+id/btn_all_cho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总胆固醇" />
+
+        <Button
+            android:id="@+id/btn_sod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="钠" />
+
+        <Button
+            android:id="@+id/btn_all_sod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总钠" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_tare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:text="@string/zero" />
+
+        <Button
+            android:id="@+id/btn_power_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shut_down" />
+
+        <Button
+            android:id="@+id/btn_write_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/write" />
+
+        <Button
+            android:id="@+id/btn_get_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_version" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:text="@string/timing" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset" />
+        <Button
+            android:id="@+id/btn_did"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:text="DID" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_start_less"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/countdown" />
+
+        <Button
+            android:id="@+id/btn_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pause" />
+        <Button
+            android:id="@+id/btn_pause_less"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pause_less" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_show_did"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="DID:"
+        />
+
+    <TextView
+        android:id="@+id/tv_show_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="TIME:"
+        />
+
+    <TextView
+        android:id="@+id/tv_show_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/black_theme"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+</LinearLayout>
+

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">PabulumSDK</string>
+
+    <string name="not_support_ble">Your device supports BLE!</string>
+    <string name="scan_ing">Scanning...</string>
+    <string name="ble_state_off">Bluetooth is off！</string>
+    <string name="ble_state_on">Bluetooth is on！</string>
+    <string name="current_device">Current device：%1$s</string>
+    <string name="current_version">current version：%1$s</string>
+    <string name="disconnected">Disconnected from device。</string>
+    <string name="current_rssi">Current signal：%1$d</string>
+    <string name="no_rssi">Current signal：--</string>
+    <string name="ble_version">Bluetooth version：%1$s</string>
+    <string name="no_version">Bluetooth version：--</string>
+    <string name="default_rssi">Filter signal：%1$d</string>
+    <string name="cancel">cancel</string>
+    <string name="query">determine</string>
+    <string name="dialog_set_rssi_title">Set the Bluetooth signal filter value</string>
+    <string name="dialog_set_rssi_tips">30~120, the smaller the value, the stronger the signal. 70 is recommended.</string>
+    <string name="rssi_not_null">Signal value cannot be empty！</string>
+    <string name="rssi_error">Please confirm that the signal value is in the range of 30~120！</string>
+    <string name="rssi_set_success">Successful setup！</string>
+    <string name="user_cancel">User canceled</string>
+    <string name="no_unit">Current unit：--</string>
+    <string name="current_unit">Current unit：%1$s</string>
+    <string name="current_unit_str">Current unit：</string>
+
+    <string name="pls_input_weight">Please enter the weight</string>
+    <string name="set_weight">Setting weight</string>
+
+    <string name="zero">zero</string>
+    <string name="shut_down">Shut down</string>
+    <string name="get_version">Get version</string>
+    <string name="timing">Timing</string>
+    <string name="countdown">Countdown</string>
+    <string name="pause">Pause</string>
+    <string name="pause_less">Countdown pause</string>
+    <string name="reset">Reset</string>
+    <string name="write">Penetrate</string>
+
+    <string name="hint">Prompt</string>
+    <string name="permissions">Request to search for Bluetooth devices with targeting permissions</string>
+    <string name="permissions_server">Location service is not turned on</string>
+    <string name="get_units">getUnits</string>
+</resources>

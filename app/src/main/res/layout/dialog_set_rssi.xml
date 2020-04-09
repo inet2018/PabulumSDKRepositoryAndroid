@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="218dp"
+    android:background="@color/white_theme"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/dialog_set_rssi_title"
+        android:textColor="@color/dark_grey"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_input_rssi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dialog_title"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="10dp"
+        android:hint="30~120"
+        android:textColor="@color/dark_grey" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_input_rssi"
+        android:text="@string/dialog_set_rssi_tips"
+        android:textColor="@color/dark_grey_50"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/DialogWarningBtn"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/warning_cancel_btn_bg"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/btn_query"
+            style="@style/DialogWarningBtn"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/warning_query_btn_bg"
+            android:text="@string/query" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/activity_title_height">
+
+    <ImageButton
+        android:id="@+id/ib_title_left"
+        style="@style/ActivityTitleIB"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tv_title_middle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="58dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textColor="@color/black_theme"
+        android:textSize="@dimen/activity_title_size" />
+
+    <Button
+        android:id="@+id/btn_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@drawable/activity_title_right"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/black_theme"
+        android:textSize="@dimen/activity_title_right_size" />
+</FrameLayout>

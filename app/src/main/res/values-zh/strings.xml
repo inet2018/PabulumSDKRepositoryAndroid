@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">营养秤SDK</string>
+
+    <string name="not_support_ble">您的设备支持BLE!</string>
+    <string name="scan_ing">正在扫描...</string>
+    <string name="ble_state_off">蓝牙已关闭！</string>
+    <string name="ble_state_on">蓝牙已开启！</string>
+    <string name="current_device">当前设备：%1$s</string>
+    <string name="current_version">当前版本：%1$s</string>
+    <string name="disconnected">已与设备断开连接。</string>
+    <string name="current_rssi">当前信号：%1$d</string>
+    <string name="no_rssi">当前信号：--</string>
+    <string name="ble_version">蓝牙版本：%1$s</string>
+    <string name="no_version">蓝牙版本：--</string>
+    <string name="default_rssi">过滤信号：%1$d</string>
+    <string name="cancel">取消</string>
+    <string name="query">确定</string>
+    <string name="dialog_set_rssi_title">设置蓝牙信号过滤值</string>
+    <string name="dialog_set_rssi_tips">30~120,值越小信号越强,推荐70</string>
+    <string name="rssi_not_null">信号值不能为空！</string>
+    <string name="rssi_error">请确认信号值在30~120范围内！</string>
+    <string name="rssi_set_success">设置成功！</string>
+    <string name="user_cancel">用户取消</string>
+    <string name="no_unit">当前单位：--</string>
+    <string name="current_unit">当前单位：%1$s</string>
+    <string name="current_unit_str">当前单位：</string>
+
+    <string name="pls_input_weight">请输入重量</string>
+    <string name="set_weight">设置重量</string>
+
+    <string name="zero">清零</string>
+    <string name="shut_down">关机</string>
+    <string name="get_version">获取版本</string>
+    <string name="get_units">获取单位列表</string>
+    <string name="timing">计时</string>
+    <string name="countdown">倒计时</string>
+    <string name="pause">暂停</string>
+    <string name="pause_less">倒计时暂停</string>
+    <string name="reset">重置</string>
+    <string name="write">透传</string>
+    <string name="hint">提示</string>
+    <string name="permissions">请求使用定位权限搜索蓝牙设备</string>
+    <string name="permissions_server">没有开启定位服务</string>
+</resources>

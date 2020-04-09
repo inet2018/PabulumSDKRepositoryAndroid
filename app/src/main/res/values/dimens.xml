@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 标题栏 -->
+    <dimen name="activity_title_height">48dp</dimen>
+    <dimen name="activity_title_size">20sp</dimen>
+    <dimen name="activity_title_right_size">14sp</dimen>
+    <dimen name="activity_title_left_padding">20dp</dimen>
+
+</resources>

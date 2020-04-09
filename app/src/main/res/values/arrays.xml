@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Device_Unit">
+        <item>克(g)</item>
+        <item>毫升(ml)</item>
+        <item>磅(lb)</item>
+        <item>盎司(oz)</item>
+        <item>未知</item>
+    </array>
+</resources>

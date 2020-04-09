@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="system_theme">#39cea1</color>
+    <color name="system_theme_50">#8039cea1</color>
+    <color name="dark_system_theme">#24B884</color>
+    <color name="light_grey">#9b9b9b</color>
+    <color name="divider_bg">#d5d5d5</color>
+    <color name="black_theme">#000000</color>
+    <color name="dark_grey">#303030</color>
+    <color name="dark_grey_50">#30303030</color>
+    <color name="white_theme">#ffffff</color>
+
+</resources>
